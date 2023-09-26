@@ -17,10 +17,11 @@ typedef struct Heap{
 } Heap;
 
 
-void* heap_top(Heap* pq){
-  if (pq->size == 0){
+void* heap_top(Heap* pq) {
+  if (pq->size == 0) {
     return NULL;
   }
+  return pq;
 }
 
 
